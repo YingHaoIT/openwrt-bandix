@@ -178,13 +178,6 @@ jobs:
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/bcm47xx/generic/openwrt-sdk-24.10.2-bcm47xx-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
             ver: "ipk"
 
-          - platform: apm821xx_nand
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/apm821xx/nand/openwrt-sdk-24.10.2-apm821xx-nand_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: apm821xx_sata
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/apm821xx/sata/openwrt-sdk-24.10.2-apm821xx-sata_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
 
           - platform: armsr_armv7
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/armsr/armv7/openwrt-sdk-24.10.2-armsr-armv7_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
@@ -302,9 +295,6 @@ jobs:
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/ipq806x/chromium/openwrt-sdk-24.10.2-ipq806x-chromium_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "ipk"
 
-          - platform: ixp4xx_generic
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/ixp4xx/generic/openwrt-sdk-24.10.2-ixp4xx-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
 
           - platform: kirkwood_generic
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/kirkwood/generic/openwrt-sdk-24.10.2-kirkwood-generic_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
@@ -338,20 +328,8 @@ jobs:
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/layerscape/armv8_64b/openwrt-sdk-24.10.2-layerscape-armv8_64b_gcc-13.3.0_musl.Linux-x86_64.tar.zst
             ver: "ipk"
 
-          - platform: loongarch64_generic
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/loongarch64/generic/openwrt-sdk-24.10.2-loongarch64-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: malta_be64
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/malta/be64/openwrt-sdk-24.10.2-malta-be64_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
           - platform: malta_be
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/malta/be/openwrt-sdk-24.10.2-malta-be_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: malta_le64
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/malta/le64/openwrt-sdk-24.10.2-malta-le64_gcc-13.3.0_musl.Linux-x86_64.tar.zst
             ver: "ipk"
 
           - platform: malta_le
@@ -370,25 +348,10 @@ jobs:
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/mediatek/mt7623/openwrt-sdk-24.10.2-mediatek-mt7623_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "ipk"
 
-          - platform: mpc85xx_p1010
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/mpc85xx/p1010/openwrt-sdk-24.10.2-mpc85xx-p1010_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: mpc85xx_p1020
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/mpc85xx/p1020/openwrt-sdk-24.10.2-mpc85xx-p1020_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: mpc85xx_p2020
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/mpc85xx/p2020/openwrt-sdk-24.10.2-mpc85xx-p2020_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
           - platform: mxs_generic
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/mxs/generic/openwrt-sdk-24.10.2-mxs-generic_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "ipk"
 
-          - platform: octeon_generic
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/octeon/generic/openwrt-sdk-24.10.2-octeon-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
 
           - platform: omap_generic
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/omap/generic/openwrt-sdk-24.10.2-omap-generic_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
@@ -396,10 +359,6 @@ jobs:
 
           - platform: pistachio_generic
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/pistachio/generic/openwrt-sdk-24.10.2-pistachio-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: qoriq_generic
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/qoriq/generic/openwrt-sdk-24.10.2-qoriq-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
             ver: "ipk"
 
           - platform: qualcommax_ipq807x
@@ -454,29 +413,11 @@ jobs:
             url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/tegra/generic/openwrt-sdk-24.10.2-tegra-generic_gcc-13.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "ipk"
 
-          - platform: x86_generic
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/x86/generic/openwrt-sdk-24.10.2-x86-generic_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: x86_geode
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/x86/geode/openwrt-sdk-24.10.2-x86-geode_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
-          - platform: x86_legacy
-            url_sdk: https://downloads.openwrt.org/releases/24.10.2/targets/x86/legacy/openwrt-sdk-24.10.2-x86-legacy_gcc-13.3.0_musl.Linux-x86_64.tar.zst
-            ver: "ipk"
-
           - platform: x86_64
             url_sdk: https://downloads.openwrt.org/snapshots/targets/x86/64/openwrt-sdk-x86-64_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
-          - platform: apm821xx_nand
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/apm821xx/nand/openwrt-sdk-apm821xx-nand_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
 
-          - platform: apm821xx_sata
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/apm821xx/sata/openwrt-sdk-apm821xx-sata_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
 
           - platform: armsr_armv7
             url_sdk: https://downloads.openwrt.org/snapshots/targets/armsr/armv7/openwrt-sdk-armsr-armv7_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
@@ -618,10 +559,6 @@ jobs:
             url_sdk: https://downloads.openwrt.org/snapshots/targets/ipq806x/generic/openwrt-sdk-ipq806x-generic_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "apk"
 
-          - platform: ixp4xx_generic
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/ixp4xx/generic/openwrt-sdk-ixp4xx-generic_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
           - platform: kirkwood_generic
             url_sdk: https://downloads.openwrt.org/snapshots/targets/kirkwood/generic/openwrt-sdk-kirkwood-generic_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "apk"
@@ -654,20 +591,8 @@ jobs:
             url_sdk: https://downloads.openwrt.org/snapshots/targets/layerscape/armv8_64b/openwrt-sdk-layerscape-armv8_64b_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
-          - platform: loongarch64_generic
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/loongarch64/generic/openwrt-sdk-loongarch64-generic_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: malta_be64
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/malta/be64/openwrt-sdk-malta-be64_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
           - platform: malta_be
             url_sdk: https://downloads.openwrt.org/snapshots/targets/malta/be/openwrt-sdk-malta-be_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: malta_le64
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/malta/le64/openwrt-sdk-malta-le64_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
           - platform: malta_le
@@ -690,18 +615,6 @@ jobs:
             url_sdk: https://downloads.openwrt.org/snapshots/targets/mediatek/mt7629/openwrt-sdk-mediatek-mt7629_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "apk"
 
-          - platform: mpc85xx_p1010
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/mpc85xx/p1010/openwrt-sdk-mpc85xx-p1010_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: mpc85xx_p1020
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/mpc85xx/p1020/openwrt-sdk-mpc85xx-p1020_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: mpc85xx_p2020
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/mpc85xx/p2020/openwrt-sdk-mpc85xx-p2020_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
           - platform: mvebu_cortexa53
             url_sdk: https://downloads.openwrt.org/snapshots/targets/mvebu/cortexa53/openwrt-sdk-mvebu-cortexa53_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
@@ -718,9 +631,6 @@ jobs:
             url_sdk: https://downloads.openwrt.org/snapshots/targets/mxs/generic/openwrt-sdk-mxs-generic_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
             ver: "apk"
 
-          - platform: octeon_generic
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/octeon/generic/openwrt-sdk-octeon-generic_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
 
           - platform: omap_generic
             url_sdk: https://downloads.openwrt.org/snapshots/targets/omap/generic/openwrt-sdk-omap-generic_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
@@ -728,10 +638,6 @@ jobs:
 
           - platform: pistachio_generic
             url_sdk: https://downloads.openwrt.org/snapshots/targets/pistachio/generic/openwrt-sdk-pistachio-generic_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: qoriq_generic
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/qoriq/generic/openwrt-sdk-qoriq-generic_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
           - platform: qualcommax_ipq50xx
@@ -754,9 +660,6 @@ jobs:
             url_sdk: https://downloads.openwrt.org/snapshots/targets/ramips/mt7621/openwrt-sdk-ramips-mt7621_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
-          - platform: ramips_mt76x8
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/ramips/mt76x8/openwrt-sdk-ramips-mt76x8_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
 
           - platform: ramips_rt288x
             url_sdk: https://downloads.openwrt.org/snapshots/targets/ramips/rt288x/openwrt-sdk-ramips-rt288x_gcc-14.2.0_musl.Linux-x86_64.tar.zst
@@ -820,18 +723,6 @@ jobs:
 
           - platform: tegra_generic
             url_sdk: https://downloads.openwrt.org/snapshots/targets/tegra/generic/openwrt-sdk-tegra-generic_gcc-14.3.0_musl_eabi.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: x86_generic
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/x86/generic/openwrt-sdk-x86-generic_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: x86_geode
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/x86/geode/openwrt-sdk-x86-geode_gcc-14.3.0_musl.Linux-x86_64.tar.zst
-            ver: "apk"
-
-          - platform: x86_legacy
-            url_sdk: https://downloads.openwrt.org/snapshots/targets/x86/legacy/openwrt-sdk-x86-legacy_gcc-14.3.0_musl.Linux-x86_64.tar.zst
             ver: "apk"
 
           - platform: zynq_generic

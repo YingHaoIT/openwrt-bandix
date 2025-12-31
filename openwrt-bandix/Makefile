@@ -24,7 +24,7 @@ PKG_SOURCE_URL:=https://github.com/timsaya/bandix/releases/download/v$(RUST_BAND
 # 修正二进制文件校验值
 ifeq ($(ARCH),aarch64)
 	PKG_HASH:=6c7bd335027152b50f3df38fec2babd93bd92892ac58c9e766867bdc15504879
-else ifeq ($(ARCH),arm)
+else ifeq ($(ARCH),arm) # update.sh skip this tag, do not delete this comment
 	# Ref https://github.com/openwrt/packages/blob/master/lang/rust/rust-values.mk
 
 	ARM_CPU_TYPE:=arm-armel
